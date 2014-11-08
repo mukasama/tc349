@@ -1,0 +1,35 @@
+body {
+  width: 700px;
+  margin: 1.5em auto; /* this + a defined width, centers the body content */
+  border-color: #666;
+  border-style:groove;
+  border-width: 15px;
+  padding: 100px;
+  background-color:#4686AA;
+  padding-top:25px;
+  padding-bottom:50px;
+}
+
+html {
+  background-color:#633;
+}
+
+h2 {
+  font-family:Gabriola;
+  padding: 7px;
+  text-align:center;
+  color:#FFF;
+  background:#663232;
+  font-size:25px;
+}
+
+li {
+  font-family:Gabriola;
+  color: #FFffff;
+  font-size: 20px;
+}
+
+.change {
+    float: right;
+    margin-left:10px;
+}

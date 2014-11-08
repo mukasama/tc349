@@ -1,0 +1,164 @@
+/* line 1, ../sass/components/_title-page.scss */
+body {
+  width: 700px;
+  margin: 1.5em auto;
+  /* this + a defined width, centers the body content */
+  border-color: #666;
+  border-style: groove;
+  border-width: 15px;
+  padding: 100px;
+  background-color: #4686AA;
+  padding-top: 25px;
+  padding-bottom: 50px;
+}
+
+/* line 13, ../sass/components/_title-page.scss */
+html {
+  background-color: #633;
+}
+
+/* line 17, ../sass/components/_title-page.scss */
+h1 {
+  text-align: center;
+  color: #ffffff;
+}
+
+/* line 1, ../sass/components/_aboutme-page.scss */
+body {
+  width: 700px;
+  margin: 1.5em auto;
+  /* this + a defined width, centers the body content */
+  border-color: #666;
+  border-style: groove;
+  border-width: 15px;
+  padding: 100px;
+  background-color: #4686AA;
+  padding-top: 25px;
+  padding-bottom: 50px;
+}
+
+/* line 13, ../sass/components/_aboutme-page.scss */
+html {
+  background-color: #633;
+}
+
+/* line 17, ../sass/components/_aboutme-page.scss */
+h2 {
+  font-family: Gabriola;
+  padding: 7px;
+  text-align: center;
+  color: #FFF;
+  background: #663232;
+  font-size: 25px;
+}
+
+/* line 26, ../sass/components/_aboutme-page.scss */
+h3 {
+  text-align: center;
+  color: #FFFFFF;
+  font-family: Gabriola;
+  font-size: 20px;
+}
+
+/* line 33, ../sass/components/_aboutme-page.scss */
+li {
+  font-family: Gabriola;
+  color: #FFffff;
+  font-size: 20px;
+}
+
+/* line 1, ../sass/components/_addinfo-page.scss */
+body {
+  width: 700px;
+  margin: 1.5em auto;
+  /* this + a defined width, centers the body content */
+  border-color: #666;
+  border-style: groove;
+  border-width: 15px;
+  padding: 100px;
+  background-color: #4686AA;
+  padding-top: 25px;
+  padding-bottom: 50px;
+}
+
+/* line 13, ../sass/components/_addinfo-page.scss */
+html {
+  background-color: #633;
+}
+
+/* line 17, ../sass/components/_addinfo-page.scss */
+h2 {
+  font-family: Gabriola;
+  padding: 7px;
+  text-align: center;
+  color: #FFF;
+  background: #663232;
+  font-size: 25px;
+}
+
+/* line 26, ../sass/components/_addinfo-page.scss */
+li {
+  font-family: Gabriola;
+  color: #FFffff;
+  font-size: 20px;
+}
+
+/* line 32, ../sass/components/_addinfo-page.scss */
+.change {
+  float: right;
+  margin-left: 10px;
+}
+
+/* line 1, ../sass/components/_contact-page.scss */
+body {
+  width: 700px;
+  margin: 1.5em auto;
+  /* this + a defined width, centers the body content */
+  border-color: #666;
+  border-style: groove;
+  border-width: 15px;
+  padding: 100px;
+  background-color: #4686AA;
+  padding-top: 25px;
+  padding-bottom: 50px;
+}
+
+/* line 13, ../sass/components/_contact-page.scss */
+html {
+  background-color: #633;
+}
+
+/* line 17, ../sass/components/_contact-page.scss */
+h2 {
+  font-family: Gabriola;
+  padding: 7px;
+  text-align: center;
+  color: #FFF;
+  background: #663232;
+  font-size: 25px;
+}
+
+/* line 27, ../sass/components/_contact-page.scss */
+form {
+  width: 450px;
+  color: #3E4A49;
+  background-color: #999;
+  padding: 10px;
+  border: #663131 5px solid;
+  font-family: Gabriola;
+  font-size: 20px;
+  margin-left: 100px;
+}
+
+/* line 38, ../sass/components/_contact-page.scss */
+#footer {
+  background-color: #999;
+  padding: 4px;
+  margin-bottom: -10px;
+  border: #663131 5px solid;
+}
+
+/* line 46, ../sass/components/_contact-page.scss */
+#footer p {
+  margin: 0;
+}

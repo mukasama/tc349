@@ -1,0 +1,179 @@
+/* line 1, /Users/usertest/Documents/Documents/Current Classes/TC 349/Portfolio/sass/components/_title-page.scss */
+body {
+  width: 700px;
+  margin: 1.5em auto;
+  /* this + a defined width, centers the body content */
+  border-color: #FFF;
+  border-style: groove;
+  border-width: 15px;
+  padding: 100px;
+  background-color: #4686AA;
+  padding-top: 25px;
+  padding-bottom: 50px;
+}
+
+/* line 13, /Users/usertest/Documents/Documents/Current Classes/TC 349/Portfolio/sass/components/_title-page.scss */
+html {
+  background-color: #633;
+}
+
+/* line 17, /Users/usertest/Documents/Documents/Current Classes/TC 349/Portfolio/sass/components/_title-page.scss */
+h1 {
+  text-align: center;
+  color: #ffffff;
+}
+
+/* line 1, /Users/usertest/Documents/Documents/Current Classes/TC 349/Portfolio/sass/components/_aboutme-page.scss */
+body {
+  width: 700px;
+  margin: 1.5em auto;
+  /* this + a defined width, centers the body content */
+  border-color: #FFF;
+  border-style: groove;
+  border-width: 15px;
+  padding: 100px;
+  background-color: #4686AA;
+  padding-top: 25px;
+  padding-bottom: 50px;
+}
+
+/* line 13, /Users/usertest/Documents/Documents/Current Classes/TC 349/Portfolio/sass/components/_aboutme-page.scss */
+html {
+  background-color: #633;
+}
+
+/* line 17, /Users/usertest/Documents/Documents/Current Classes/TC 349/Portfolio/sass/components/_aboutme-page.scss */
+h2 {
+  font-family: Gabriola;
+  padding: 7px;
+  text-align: center;
+  color: #FFF;
+  background: #663232;
+  font-size: 25px;
+}
+
+/* line 26, /Users/usertest/Documents/Documents/Current Classes/TC 349/Portfolio/sass/components/_aboutme-page.scss */
+h3 {
+  text-align: center;
+  color: #FFFFFF;
+  font-family: Gabriola;
+  font-size: 20px;
+}
+
+/* line 33, /Users/usertest/Documents/Documents/Current Classes/TC 349/Portfolio/sass/components/_aboutme-page.scss */
+li {
+  font-family: Gabriola;
+  color: #FFffff;
+  font-size: 20px;
+}
+
+/* line 1, /Users/usertest/Documents/Documents/Current Classes/TC 349/Portfolio/sass/components/_addinfo-page.scss */
+body {
+  width: 700px;
+  margin: 1.5em auto;
+  /* this + a defined width, centers the body content */
+  border-color: #FFF;
+  border-style: groove;
+  border-width: 15px;
+  padding: 100px;
+  background-color: #4686AA;
+  padding-top: 25px;
+  padding-bottom: 50px;
+}
+
+/* line 13, /Users/usertest/Documents/Documents/Current Classes/TC 349/Portfolio/sass/components/_addinfo-page.scss */
+html {
+  background-color: #633;
+}
+
+/* line 17, /Users/usertest/Documents/Documents/Current Classes/TC 349/Portfolio/sass/components/_addinfo-page.scss */
+h2 {
+  font-family: Gabriola;
+  padding: 7px;
+  text-align: center;
+  color: #FFF;
+  background: #663232;
+  font-size: 25px;
+}
+
+/* line 26, /Users/usertest/Documents/Documents/Current Classes/TC 349/Portfolio/sass/components/_addinfo-page.scss */
+li {
+  font-family: Gabriola;
+  color: #FFffff;
+  font-size: 20px;
+}
+
+/* line 32, /Users/usertest/Documents/Documents/Current Classes/TC 349/Portfolio/sass/components/_addinfo-page.scss */
+.change {
+  float: right;
+  margin-left: 10px;
+}
+
+#myport {
+	text-align:center;
+	font-family:Gabriola;
+	font-size:20px;
+	color: #FFffff;
+	border:double;
+	border-color:#663131;
+	width:100%;
+}
+
+/* line 1, /Users/usertest/Documents/Documents/Current Classes/TC 349/Portfolio/sass/components/_contact-page.scss */
+body {
+  width: 700px;
+  margin: 1.5em auto;
+  /* this + a defined width, centers the body content */
+  border-color: #FFF;
+  border-style: groove;
+  border-width: 15px;
+  padding: 100px;
+  background-color: #4686AA;
+  padding-top: 25px;
+  padding-bottom: 50px;
+}
+
+/* line 13, /Users/usertest/Documents/Documents/Current Classes/TC 349/Portfolio/sass/components/_contact-page.scss */
+html {
+  background-color: #633;
+}
+
+/* line 17, /Users/usertest/Documents/Documents/Current Classes/TC 349/Portfolio/sass/components/_contact-page.scss */
+h2 {
+  font-family: Gabriola;
+  padding: 7px;
+  text-align: center;
+  color: #FFF;
+  background: #663232;
+  font-size: 25px;
+}
+
+/* line 27, /Users/usertest/Documents/Documents/Current Classes/TC 349/Portfolio/sass/components/_contact-page.scss */
+form {
+  width: 450px;
+  color: #3E4A49;
+  background-color: #999;
+  padding: 10px;
+  border: #663131 5px solid;
+  font-family: Gabriola;
+  font-size: 20px;
+  margin-left: 100px;
+}
+
+/* line 38, /Users/usertest/Documents/Documents/Current Classes/TC 349/Portfolio/sass/components/_contact-page.scss */
+#footer {
+  background-color: #999;
+  padding: 4px;
+  margin-bottom: -10px;
+  border: #663131 5px solid;
+}
+
+/* line 46, /Users/usertest/Documents/Documents/Current Classes/TC 349/Portfolio/sass/components/_contact-page.scss */
+#footer p {
+  margin: 0;
+}
+
+/* line 51, /Users/usertest/Documents/Documents/Current Classes/TC 349/Portfolio/sass/components/_contact-page.scss */
+a:hover {
+  color: #0F0;
+}

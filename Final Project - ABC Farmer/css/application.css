@@ -1,0 +1,1574 @@
+@font-face {
+  font-family: 'OpenSans';
+  src: url("../fonts/OpenSans-Regular.eot");
+  src: local("☺"), url("../fonts/OpenSans-Regular.woff") format("woff"), url("../fonts/OpenSans-Regular.ttf") format("truetype"), url("../fonts/OpenSans-Regular.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Play';
+  src: url("../fonts/Play-Regular.eot");
+  src: local("☺"), url("../fonts/Play-Regular.woff") format("woff"), url("../fonts/Play-Regular.ttf") format("truetype"), url("../fonts/Play-Regular.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 15, ../sass/components/_main1-page.scss */
+body {
+  background-color: #fff;
+  font-family: 'OpenSans';
+  margin: 0;
+}
+
+/* line 20, ../sass/components/_main1-page.scss */
+img {
+  border: 0;
+}
+
+/* line 23, ../sass/components/_main1-page.scss */
+.clearfix:after, #contents:after {
+  clear: both;
+  content: "";
+  display: block;
+  height: 1%;
+  line-height: 0;
+  visibility: hidden;
+}
+
+/* line 31, ../sass/components/_main1-page.scss */
+.btn {
+  background: url(../images/bg-button.png) no-repeat;
+  background-position: 0 -70px;
+  color: #fff;
+  display: inline-block;
+  font: 24px/60px "OpenSans";
+  height: 60px;
+  width: 230px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/* line 43, ../sass/components/_main1-page.scss */
+.btn:hover {
+  background-position: 0 0;
+}
+
+/* line 47, ../sass/components/_main1-page.scss */
+#header {
+  background-color: #eee;
+  border-bottom: 1px solid #e6e6e6;
+  padding: 27px 0;
+}
+
+/* line 52, ../sass/components/_main1-page.scss */
+#header > div, #footer > div {
+  width: 920px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/** Logo **/
+/* line 58, ../sass/components/_main1-page.scss */
+#header .logo {
+  float: left;
+  margin-left: 10px;
+}
+
+/* line 62, ../sass/components/_main1-page.scss */
+#header .logo a {
+  background: url(../images/logo.png) no-repeat center top;
+  color: #000;
+  display: block;
+  font: 15px/30px "Play";
+  height: 30px;
+  width: 100px;
+  padding-top: 80px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/** Navigation **/
+/* line 74, ../sass/components/_main1-page.scss */
+#navigation {
+  display: inline-block;
+  list-style: none;
+  line-height: 100px;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 81, ../sass/components/_main1-page.scss */
+#navigation ul {
+  display: inline-block;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 87, ../sass/components/_main1-page.scss */
+#navigation li {
+  float: left;
+  width: 160px;
+  text-align: center;
+}
+
+/* line 92, ../sass/components/_main1-page.scss */
+#navigation li a {
+  color: #818181;
+  font-size: 15px;
+  line-height: 30px;
+  text-decoration: none;
+}
+
+/* line 98, ../sass/components/_main1-page.scss */
+#navigation li a:hover {
+  color: #000;
+}
+
+/* line 101, ../sass/components/_main1-page.scss */
+#navigation li.active a {
+  color: #f99600;
+}
+
+/* line 104, ../sass/components/_main1-page.scss */
+#adbox {
+  background: url(../images/bg-adbox.jpg) repeat-x left top;
+  height: 350px;
+  padding: 60px 0;
+}
+
+/* line 109, ../sass/components/_main1-page.scss */
+#adbox > div {
+  width: 800px;
+  margin: 0 auto;
+  padding: 0 80px;
+}
+
+/* line 114, ../sass/components/_main1-page.scss */
+#adbox > div img {
+  float: right;
+  margin-left: 60px;
+}
+
+/* line 118, ../sass/components/_main1-page.scss */
+#adbox h1, #adbox h2 {
+  color: #2c2c2c;
+  font-size: 60px;
+  line-height: 60px;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+/* line 125, ../sass/components/_main1-page.scss */
+#adbox h2 {
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: none;
+}
+
+/* line 130, ../sass/components/_main1-page.scss */
+#adbox p {
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0;
+}
+
+/* line 135, ../sass/components/_main1-page.scss */
+#adbox p span {
+  display: block;
+  font-size: 12px;
+  width: 360px;
+  padding: 24px 0;
+  text-align: center;
+}
+
+/* line 142, ../sass/components/_main1-page.scss */
+#adbox p span b {
+  font-weight: normal;
+  display: block;
+  width: 256px;
+}
+
+/* line 148, ../sass/components/_main1-page.scss */
+#contents {
+  min-height: 510px;
+  width: 880px;
+  margin: 0 auto;
+  padding: 10px 40px;
+}
+
+/* line 154, ../sass/components/_main1-page.scss */
+h1 {
+  color: #3e3e3e;
+  font-size: 30px;
+  font-weight: normal;
+  line-height: 30px;
+  margin: 0 0 30px;
+}
+
+/* line 161, ../sass/components/_main1-page.scss */
+h2 {
+  color: #2c2c2c;
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 24px;
+  margin: 0 0 12px;
+}
+
+/* line 168, ../sass/components/_main1-page.scss */
+p {
+  color: #585858;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0 0 30px;
+}
+
+/* line 174, ../sass/components/_main1-page.scss */
+p a {
+  color: #585858;
+}
+
+/* line 177, ../sass/components/_main1-page.scss */
+#tagline h1 {
+  margin-left: 20px;
+}
+
+/* line 180, ../sass/components/_main1-page.scss */
+#tagline > div {
+  float: left;
+  width: 400px;
+  margin: 0 20px;
+}
+
+/* line 185, ../sass/components/_main1-page.scss */
+#contents .features {
+  width: 810px;
+  margin: 0 auto;
+}
+
+/* line 189, ../sass/components/_main1-page.scss */
+.features > div {
+  display: inline-block;
+  margin: 0 0 30px;
+}
+
+/* line 193, ../sass/components/_main1-page.scss */
+.features > div img {
+  float: left;
+  margin-right: 20px;
+  margin-top: 36px;
+}
+
+/* line 199, ../sass/components/_main1-page.scss */
+#footer {
+  background-color: #eee;
+  border-top: 1px solid #d8d8d8;
+  padding: 30px 0;
+}
+
+/* line 204, ../sass/components/_main1-page.scss */
+#footer p {
+  font-size: 12px;
+  line-height: 30px;
+  padding-left: 10px;
+}
+
+/* line 209, ../sass/components/_main1-page.scss */
+#connect {
+  float: right;
+  display: inline-block;
+  margin-right: 30px;
+}
+
+/* line 214, ../sass/components/_main1-page.scss */
+#connect a {
+  background: url(../images/icons.png) no-repeat;
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  margin: 0 10px;
+}
+
+/* line 221, ../sass/components/_main1-page.scss */
+#connect a.googleplus {
+  background-position: 0 -40px;
+}
+
+/* line 224, ../sass/components/_main1-page.scss */
+#connect a.twitter {
+  background-position: 0 -80px;
+}
+
+/* line 227, ../sass/components/_main1-page.scss */
+#connect a.tumbler {
+  background-position: 0 -120px;
+}
+
+/* line 230, ../sass/components/_main1-page.scss */
+#connect a.facebook:hover {
+  background-position: -40px 0;
+}
+
+/* line 233, ../sass/components/_main1-page.scss */
+#connect a.googleplus:hover {
+  background-position: -40px -40px;
+}
+
+/* line 236, ../sass/components/_main1-page.scss */
+#connect a.twitter:hover {
+  background-position: -40px -80px;
+}
+
+/* line 239, ../sass/components/_main1-page.scss */
+#connect a.tumbler:hover {
+  background-position: -40px -120px;
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url("../fonts/OpenSans-Regular.eot");
+  src: local("☺"), url("../fonts/OpenSans-Regular.woff") format("woff"), url("../fonts/OpenSans-Regular.ttf") format("truetype"), url("../fonts/OpenSans-Regular.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Play';
+  src: url("../fonts/Play-Regular.eot");
+  src: local("☺"), url("../fonts/Play-Regular.woff") format("woff"), url("../fonts/Play-Regular.ttf") format("truetype"), url("../fonts/Play-Regular.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 15, ../sass/components/_main2-page.scss */
+body {
+  background-color: #fff;
+  font-family: 'OpenSans';
+  margin: 0;
+}
+
+/* line 20, ../sass/components/_main2-page.scss */
+img {
+  border: 0;
+}
+
+/* line 23, ../sass/components/_main2-page.scss */
+.clearfix:after, #contents:after {
+  clear: both;
+  content: "";
+  display: block;
+  height: 1%;
+  line-height: 0;
+  visibility: hidden;
+}
+
+/* line 31, ../sass/components/_main2-page.scss */
+.btn {
+  background: url(../images/bg-button.png) no-repeat;
+  background-position: 0 -70px;
+  color: #fff;
+  display: inline-block;
+  font: 24px/60px "OpenSans";
+  height: 60px;
+  width: 230px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/* line 43, ../sass/components/_main2-page.scss */
+.btn:hover {
+  background-position: 0 0;
+}
+
+/* line 47, ../sass/components/_main2-page.scss */
+#header {
+  background-color: #eee;
+  border-bottom: 1px solid #e6e6e6;
+  padding: 27px 0;
+}
+
+/* line 52, ../sass/components/_main2-page.scss */
+#header > div, #footer > div {
+  width: 920px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/** Logo **/
+/* line 58, ../sass/components/_main2-page.scss */
+#header .logo {
+  float: left;
+  margin-left: 10px;
+}
+
+/* line 62, ../sass/components/_main2-page.scss */
+#header .logo a {
+  background: url(../images/logo.png) no-repeat center top;
+  color: #000;
+  display: block;
+  font: 15px/30px "Play";
+  height: 30px;
+  width: 100px;
+  padding-top: 80px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/** Navigation **/
+/* line 74, ../sass/components/_main2-page.scss */
+#navigation {
+  display: inline-block;
+  list-style: none;
+  line-height: 100px;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 81, ../sass/components/_main2-page.scss */
+#navigation ul {
+  display: inline-block;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 87, ../sass/components/_main2-page.scss */
+#navigation li {
+  float: left;
+  width: 160px;
+  text-align: center;
+}
+
+/* line 92, ../sass/components/_main2-page.scss */
+#navigation li a {
+  color: #818181;
+  font-size: 15px;
+  line-height: 30px;
+  text-decoration: none;
+}
+
+/* line 98, ../sass/components/_main2-page.scss */
+#navigation li a:hover {
+  color: #000;
+}
+
+/* line 101, ../sass/components/_main2-page.scss */
+#navigation li.active a {
+  color: #f99600;
+}
+
+/* line 105, ../sass/components/_main2-page.scss */
+#header {
+  background-color: #eee;
+  border-bottom: 1px solid #e6e6e6;
+  padding: 27px 0;
+}
+
+/* line 110, ../sass/components/_main2-page.scss */
+#header > div, #footer > div {
+  width: 920px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/** Logo **/
+/* line 116, ../sass/components/_main2-page.scss */
+#header .logo {
+  float: left;
+  margin-left: 10px;
+}
+
+/* line 120, ../sass/components/_main2-page.scss */
+#header .logo a {
+  background: url(../images/logo.png) no-repeat center top;
+  color: #000;
+  display: block;
+  font: 15px/30px "Play";
+  height: 30px;
+  width: 100px;
+  padding-top: 80px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/** Navigation **/
+/* line 132, ../sass/components/_main2-page.scss */
+#navigation {
+  display: inline-block;
+  list-style: none;
+  line-height: 100px;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 139, ../sass/components/_main2-page.scss */
+#navigation ul {
+  display: inline-block;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 145, ../sass/components/_main2-page.scss */
+#navigation li {
+  float: left;
+  width: 160px;
+  text-align: center;
+}
+
+/* line 150, ../sass/components/_main2-page.scss */
+#navigation li a {
+  color: #818181;
+  font-size: 15px;
+  line-height: 30px;
+  text-decoration: none;
+}
+
+/* line 156, ../sass/components/_main2-page.scss */
+#navigation li a:hover {
+  color: #000;
+}
+
+/* line 159, ../sass/components/_main2-page.scss */
+#navigation li.active a {
+  color: #f99600;
+}
+
+/* line 163, ../sass/components/_main2-page.scss */
+#contents {
+  min-height: 510px;
+  width: 880px;
+  margin: 0 auto;
+  padding: 10px 40px;
+}
+
+/* line 169, ../sass/components/_main2-page.scss */
+h1 {
+  color: #3e3e3e;
+  font-size: 30px;
+  font-weight: normal;
+  line-height: 30px;
+  margin: 0 0 30px;
+}
+
+/* line 176, ../sass/components/_main2-page.scss */
+h2 {
+  color: #2c2c2c;
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 24px;
+  margin: 0 0 12px;
+}
+
+/* line 183, ../sass/components/_main2-page.scss */
+p {
+  color: #585858;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0 0 30px;
+}
+
+/* line 189, ../sass/components/_main2-page.scss */
+p a {
+  color: #585858;
+}
+
+/* line 193, ../sass/components/_main2-page.scss */
+.features > div {
+  display: inline-block;
+  margin: 0 0 30px;
+}
+
+/* line 197, ../sass/components/_main2-page.scss */
+.features > div img {
+  float: left;
+  margin-right: 20px;
+  margin-top: 36px;
+}
+
+/* line 202, ../sass/components/_main2-page.scss */
+#footer {
+  background-color: #eee;
+  border-top: 1px solid #d8d8d8;
+  padding: 30px 0;
+}
+
+/* line 207, ../sass/components/_main2-page.scss */
+#footer p {
+  font-size: 12px;
+  line-height: 30px;
+  padding-left: 10px;
+}
+
+/* line 212, ../sass/components/_main2-page.scss */
+#connect {
+  float: right;
+  display: inline-block;
+  margin-right: 30px;
+}
+
+/* line 217, ../sass/components/_main2-page.scss */
+#connect a {
+  background: url(../images/icons.png) no-repeat;
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  margin: 0 10px;
+}
+
+/* line 224, ../sass/components/_main2-page.scss */
+#connect a.googleplus {
+  background-position: 0 -40px;
+}
+
+/* line 227, ../sass/components/_main2-page.scss */
+#connect a.twitter {
+  background-position: 0 -80px;
+}
+
+/* line 230, ../sass/components/_main2-page.scss */
+#connect a.tumbler {
+  background-position: 0 -120px;
+}
+
+/* line 233, ../sass/components/_main2-page.scss */
+#connect a.facebook:hover {
+  background-position: -40px 0;
+}
+
+/* line 236, ../sass/components/_main2-page.scss */
+#connect a.googleplus:hover {
+  background-position: -40px -40px;
+}
+
+/* line 239, ../sass/components/_main2-page.scss */
+#connect a.twitter:hover {
+  background-position: -40px -80px;
+}
+
+/* line 242, ../sass/components/_main2-page.scss */
+#connect a.tumbler:hover {
+  background-position: -40px -120px;
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url("../fonts/OpenSans-Regular.eot");
+  src: local("☺"), url("../fonts/OpenSans-Regular.woff") format("woff"), url("../fonts/OpenSans-Regular.ttf") format("truetype"), url("../fonts/OpenSans-Regular.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Play';
+  src: url("../fonts/Play-Regular.eot");
+  src: local("☺"), url("../fonts/Play-Regular.woff") format("woff"), url("../fonts/Play-Regular.ttf") format("truetype"), url("../fonts/Play-Regular.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 15, ../sass/components/_main3-page.scss */
+body {
+  background-color: #fff;
+  font-family: 'OpenSans';
+  margin: 0;
+}
+
+/* line 20, ../sass/components/_main3-page.scss */
+img {
+  border: 0;
+}
+
+/* line 23, ../sass/components/_main3-page.scss */
+.clearfix:after, #contents:after {
+  clear: both;
+  content: "";
+  display: block;
+  height: 1%;
+  line-height: 0;
+  visibility: hidden;
+}
+
+/* line 31, ../sass/components/_main3-page.scss */
+.btn {
+  background: url(../images/bg-button.png) no-repeat;
+  background-position: 0 -70px;
+  color: #fff;
+  display: inline-block;
+  font: 24px/60px "OpenSans";
+  height: 60px;
+  width: 230px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/* line 43, ../sass/components/_main3-page.scss */
+.btn:hover {
+  background-position: 0 0;
+}
+
+/* line 47, ../sass/components/_main3-page.scss */
+#header {
+  background-color: #eee;
+  border-bottom: 1px solid #e6e6e6;
+  padding: 27px 0;
+}
+
+/* line 52, ../sass/components/_main3-page.scss */
+#header > div, #footer > div {
+  width: 920px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/** Logo **/
+/* line 58, ../sass/components/_main3-page.scss */
+#header .logo {
+  float: left;
+  margin-left: 10px;
+}
+
+/* line 62, ../sass/components/_main3-page.scss */
+#header .logo a {
+  background: url(../images/logo.png) no-repeat center top;
+  color: #000;
+  display: block;
+  font: 15px/30px "Play";
+  height: 30px;
+  width: 100px;
+  padding-top: 80px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/** Navigation **/
+/* line 74, ../sass/components/_main3-page.scss */
+#navigation {
+  display: inline-block;
+  list-style: none;
+  line-height: 100px;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 81, ../sass/components/_main3-page.scss */
+#navigation ul {
+  display: inline-block;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 87, ../sass/components/_main3-page.scss */
+#navigation li {
+  float: left;
+  width: 160px;
+  text-align: center;
+}
+
+/* line 92, ../sass/components/_main3-page.scss */
+#navigation li a {
+  color: #818181;
+  font-size: 15px;
+  line-height: 30px;
+  text-decoration: none;
+}
+
+/* line 98, ../sass/components/_main3-page.scss */
+#navigation li a:hover {
+  color: #000;
+}
+
+/* line 101, ../sass/components/_main3-page.scss */
+#navigation li.active a {
+  color: #f99600;
+}
+
+/* line 105, ../sass/components/_main3-page.scss */
+#contents {
+  min-height: 510px;
+  width: 880px;
+  margin: 0 auto;
+  padding: 10px 40px;
+}
+
+/* line 111, ../sass/components/_main3-page.scss */
+h1 {
+  color: #3e3e3e;
+  font-size: 30px;
+  font-weight: normal;
+  line-height: 30px;
+  margin: 0 0 30px;
+}
+
+/* line 118, ../sass/components/_main3-page.scss */
+h2 {
+  color: #2c2c2c;
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 24px;
+  margin: 0 0 12px;
+}
+
+/* line 125, ../sass/components/_main3-page.scss */
+p {
+  color: #585858;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0 0 30px;
+}
+
+/* line 131, ../sass/components/_main3-page.scss */
+p a {
+  color: #585858;
+}
+
+/* line 134, ../sass/components/_main3-page.scss */
+#tagline h1 {
+  margin-left: 20px;
+}
+
+/* line 137, ../sass/components/_main3-page.scss */
+#tagline > div {
+  float: left;
+  width: 400px;
+  margin: 0 20px;
+}
+
+/* line 142, ../sass/components/_main3-page.scss */
+#contents .features {
+  width: 810px;
+  margin: 0 auto;
+}
+
+/* line 146, ../sass/components/_main3-page.scss */
+.features > div {
+  display: inline-block;
+  margin: 0 0 30px;
+}
+
+/* line 150, ../sass/components/_main3-page.scss */
+.features > div img {
+  float: left;
+  margin-right: 20px;
+  margin-top: 36px;
+}
+
+/* line 155, ../sass/components/_main3-page.scss */
+.date {
+  float: left;
+  height: 78px;
+  width: 70px;
+  margin-right: 20px;
+  border: 1px solid #d5d5d5;
+  text-align: center;
+}
+
+/* line 163, ../sass/components/_main3-page.scss */
+.date p {
+  margin: 12px 0 0;
+}
+
+/* line 166, ../sass/components/_main3-page.scss */
+.date p span {
+  display: block;
+  font-size: 30px;
+  margin-bottom: 6px;
+}
+
+/* line 171, ../sass/components/_main3-page.scss */
+.author {
+  color: #585858;
+  display: block;
+  font-size: 12px;
+}
+
+/* line 176, ../sass/components/_main3-page.scss */
+.more {
+  background-color: #727272;
+  color: #fff;
+  display: inline-block;
+  font-size: 14px;
+  line-height: 30px;
+  width: 100px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* line 186, ../sass/components/_main3-page.scss */
+.more:hover, .message input[type='submit']:hover {
+  background-color: #f99600;
+  color: #000;
+}
+
+/** main **/
+/* line 191, ../sass/components/_main3-page.scss */
+.main {
+  float: left;
+  background: url(../images/divider.png) repeat-y right top;
+  min-height: 100px;
+  width: 620px;
+  padding-right: 24px;
+}
+
+/* line 198, ../sass/components/_main3-page.scss */
+.main h1, .sidebar h1 {
+  margin: 0 0 12px;
+  position: relative;
+  top: -18px;
+}
+
+/* line 203, ../sass/components/_main3-page.scss */
+.main h2 span {
+  display: block;
+  font-size: 12px;
+}
+
+/** sidebar **/
+/* line 208, ../sass/components/_main3-page.scss */
+.sidebar {
+  float: left;
+  min-height: 848px;
+  width: 216px;
+  margin-left: 20px;
+}
+
+/* line 214, ../sass/components/_main3-page.scss */
+.sidebar ul, .news {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 219, ../sass/components/_main3-page.scss */
+.news li {
+  border-top: 1px solid #d5d5d5;
+  padding: 24px 30px 0 100px;
+  position: relative;
+}
+
+/* line 224, ../sass/components/_main3-page.scss */
+.news li .date {
+  float: none;
+  position: absolute;
+  left: 0;
+  top: 30px;
+}
+
+/* line 230, ../sass/components/_main3-page.scss */
+.news li > p span, .post > span {
+  display: block;
+  text-align: right;
+}
+
+/* line 234, ../sass/components/_main3-page.scss */
+.posts {
+  border-top: 1px solid #d5d5d5;
+}
+
+/* line 237, ../sass/components/_main3-page.scss */
+.posts li {
+  border-bottom: 1px solid #d5d5d5;
+  padding: 24px 10px 0;
+}
+
+/* line 241, ../sass/components/_main3-page.scss */
+.posts li p {
+  font-size: 14px;
+}
+
+/* line 244, ../sass/components/_main3-page.scss */
+.posts li .title {
+  font-size: 16px;
+  font-weight: normal;
+  margin: 0 0 12px;
+}
+
+/* line 249, ../sass/components/_main3-page.scss */
+.posts li .title a {
+  color: #2c2c2c;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+/* line 254, ../sass/components/_main3-page.scss */
+.post {
+  width: 785px;
+  margin: 0 auto;
+}
+
+/* line 258, ../sass/components/_main3-page.scss */
+.post h1 {
+  padding-top: 12px;
+}
+
+/* line 261, ../sass/components/_main3-page.scss */
+#about {
+  width: 740px;
+  margin: 0 auto;
+}
+
+/* line 265, ../sass/components/_main3-page.scss */
+#about h1, .section h1 {
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 12px;
+}
+
+/* line 270, ../sass/components/_main3-page.scss */
+#footer {
+  background-color: #eee;
+  border-top: 1px solid #d8d8d8;
+  padding: 30px 0;
+}
+
+/* line 275, ../sass/components/_main3-page.scss */
+#footer p {
+  font-size: 12px;
+  line-height: 30px;
+  padding-left: 10px;
+}
+
+/* line 280, ../sass/components/_main3-page.scss */
+#connect {
+  float: right;
+  display: inline-block;
+  margin-right: 30px;
+}
+
+/* line 285, ../sass/components/_main3-page.scss */
+#connect a {
+  background: url(../images/icons.png) no-repeat;
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  margin: 0 10px;
+}
+
+/* line 292, ../sass/components/_main3-page.scss */
+#connect a.googleplus {
+  background-position: 0 -40px;
+}
+
+/* line 295, ../sass/components/_main3-page.scss */
+#connect a.twitter {
+  background-position: 0 -80px;
+}
+
+/* line 298, ../sass/components/_main3-page.scss */
+#connect a.tumbler {
+  background-position: 0 -120px;
+}
+
+/* line 301, ../sass/components/_main3-page.scss */
+#connect a.facebook:hover {
+  background-position: -40px 0;
+}
+
+/* line 304, ../sass/components/_main3-page.scss */
+#connect a.googleplus:hover {
+  background-position: -40px -40px;
+}
+
+/* line 307, ../sass/components/_main3-page.scss */
+#connect a.twitter:hover {
+  background-position: -40px -80px;
+}
+
+/* line 310, ../sass/components/_main3-page.scss */
+#connect a.tumbler:hover {
+  background-position: -40px -120px;
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url("../fonts/OpenSans-Regular.eot");
+  src: local("☺"), url("../fonts/OpenSans-Regular.woff") format("woff"), url("../fonts/OpenSans-Regular.ttf") format("truetype"), url("../fonts/OpenSans-Regular.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Play';
+  src: url("../fonts/Play-Regular.eot");
+  src: local("☺"), url("../fonts/Play-Regular.woff") format("woff"), url("../fonts/Play-Regular.ttf") format("truetype"), url("../fonts/Play-Regular.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 15, ../sass/components/_main4-page.scss */
+body {
+  background-color: #fff;
+  font-family: 'OpenSans';
+  margin: 0;
+}
+
+/* line 20, ../sass/components/_main4-page.scss */
+img {
+  border: 0;
+}
+
+/* line 23, ../sass/components/_main4-page.scss */
+.clearfix:after, #contents:after {
+  clear: both;
+  content: "";
+  display: block;
+  height: 1%;
+  line-height: 0;
+  visibility: hidden;
+}
+
+/* line 31, ../sass/components/_main4-page.scss */
+.btn {
+  background: url(../images/bg-button.png) no-repeat;
+  background-position: 0 -70px;
+  color: #fff;
+  display: inline-block;
+  font: 24px/60px "OpenSans";
+  height: 60px;
+  width: 230px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/* line 43, ../sass/components/_main4-page.scss */
+.btn:hover {
+  background-position: 0 0;
+}
+
+/* line 47, ../sass/components/_main4-page.scss */
+#header {
+  background-color: #eee;
+  border-bottom: 1px solid #e6e6e6;
+  padding: 27px 0;
+}
+
+/* line 52, ../sass/components/_main4-page.scss */
+#header > div, #footer > div {
+  width: 920px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/** Logo **/
+/* line 58, ../sass/components/_main4-page.scss */
+#header .logo {
+  float: left;
+  margin-left: 10px;
+}
+
+/* line 62, ../sass/components/_main4-page.scss */
+#header .logo a {
+  background: url(../images/logo.png) no-repeat center top;
+  color: #000;
+  display: block;
+  font: 15px/30px "Play";
+  height: 30px;
+  width: 100px;
+  padding-top: 80px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/** Navigation **/
+/* line 74, ../sass/components/_main4-page.scss */
+#navigation {
+  display: inline-block;
+  list-style: none;
+  line-height: 100px;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 81, ../sass/components/_main4-page.scss */
+#navigation ul {
+  display: inline-block;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 87, ../sass/components/_main4-page.scss */
+#navigation li {
+  float: left;
+  width: 160px;
+  text-align: center;
+}
+
+/* line 92, ../sass/components/_main4-page.scss */
+#navigation li a {
+  color: #818181;
+  font-size: 15px;
+  line-height: 30px;
+  text-decoration: none;
+}
+
+/* line 98, ../sass/components/_main4-page.scss */
+#navigation li a:hover {
+  color: #000;
+}
+
+/* line 101, ../sass/components/_main4-page.scss */
+#navigation li.active a {
+  color: #f99600;
+}
+
+/* line 105, ../sass/components/_main4-page.scss */
+#contents {
+  min-height: 510px;
+  width: 880px;
+  margin: 0 auto;
+  padding: 10px 40px;
+}
+
+/* line 111, ../sass/components/_main4-page.scss */
+h1 {
+  color: #3e3e3e;
+  font-size: 30px;
+  font-weight: normal;
+  line-height: 30px;
+  margin: 0 0 30px;
+}
+
+/* line 118, ../sass/components/_main4-page.scss */
+h2 {
+  color: #2c2c2c;
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 24px;
+  margin: 0 0 12px;
+}
+
+/* line 125, ../sass/components/_main4-page.scss */
+p {
+  color: #585858;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0 0 30px;
+}
+
+/* line 131, ../sass/components/_main4-page.scss */
+p a {
+  color: #585858;
+}
+
+/* line 134, ../sass/components/_main4-page.scss */
+#tagline h1 {
+  margin-left: 20px;
+}
+
+/* line 137, ../sass/components/_main4-page.scss */
+#tagline > div {
+  float: left;
+  width: 400px;
+  margin: 0 20px;
+}
+
+/* line 142, ../sass/components/_main4-page.scss */
+#contents .features {
+  width: 810px;
+  margin: 0 auto;
+}
+
+/* line 146, ../sass/components/_main4-page.scss */
+.features > div {
+  display: inline-block;
+  margin: 0 0 30px;
+}
+
+/* line 150, ../sass/components/_main4-page.scss */
+.features > div img {
+  float: left;
+  margin-right: 20px;
+  margin-top: 36px;
+}
+
+/* line 155, ../sass/components/_main4-page.scss */
+.date {
+  float: left;
+  height: 78px;
+  width: 70px;
+  margin-right: 20px;
+  border: 1px solid #d5d5d5;
+  text-align: center;
+}
+
+/* line 163, ../sass/components/_main4-page.scss */
+.date p {
+  margin: 12px 0 0;
+}
+
+/* line 166, ../sass/components/_main4-page.scss */
+.date p span {
+  display: block;
+  font-size: 30px;
+  margin-bottom: 6px;
+}
+
+/* line 171, ../sass/components/_main4-page.scss */
+.author {
+  color: #585858;
+  display: block;
+  font-size: 12px;
+}
+
+/* line 176, ../sass/components/_main4-page.scss */
+.more {
+  background-color: #727272;
+  color: #fff;
+  display: inline-block;
+  font-size: 14px;
+  line-height: 30px;
+  width: 100px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* line 186, ../sass/components/_main4-page.scss */
+.more:hover, .message input[type='submit']:hover {
+  background-color: #f99600;
+  color: #000;
+}
+
+/** main **/
+/* line 191, ../sass/components/_main4-page.scss */
+.main {
+  float: left;
+  background: url(../images/divider.png) repeat-y right top;
+  min-height: 100px;
+  width: 620px;
+  padding-right: 24px;
+}
+
+/* line 198, ../sass/components/_main4-page.scss */
+.main h1, .sidebar h1 {
+  margin: 0 0 12px;
+  position: relative;
+  top: -18px;
+}
+
+/* line 203, ../sass/components/_main4-page.scss */
+.main h2 span {
+  display: block;
+  font-size: 12px;
+}
+
+/** sidebar **/
+/* line 208, ../sass/components/_main4-page.scss */
+.sidebar {
+  float: left;
+  min-height: 848px;
+  width: 216px;
+  margin-left: 20px;
+}
+
+/* line 214, ../sass/components/_main4-page.scss */
+.sidebar ul, .news {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 219, ../sass/components/_main4-page.scss */
+.news li {
+  border-top: 1px solid #d5d5d5;
+  padding: 24px 30px 0 100px;
+  position: relative;
+}
+
+/* line 224, ../sass/components/_main4-page.scss */
+.news li .date {
+  float: none;
+  position: absolute;
+  left: 0;
+  top: 30px;
+}
+
+/* line 230, ../sass/components/_main4-page.scss */
+.news li > p span, .post > span {
+  display: block;
+  text-align: right;
+}
+
+/* line 234, ../sass/components/_main4-page.scss */
+.posts {
+  border-top: 1px solid #d5d5d5;
+}
+
+/* line 237, ../sass/components/_main4-page.scss */
+.posts li {
+  border-bottom: 1px solid #d5d5d5;
+  padding: 24px 10px 0;
+}
+
+/* line 241, ../sass/components/_main4-page.scss */
+.posts li p {
+  font-size: 14px;
+}
+
+/* line 244, ../sass/components/_main4-page.scss */
+.posts li .title {
+  font-size: 16px;
+  font-weight: normal;
+  margin: 0 0 12px;
+}
+
+/* line 249, ../sass/components/_main4-page.scss */
+.posts li .title a {
+  color: #2c2c2c;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+/* line 254, ../sass/components/_main4-page.scss */
+.post {
+  width: 785px;
+  margin: 0 auto;
+}
+
+/* line 258, ../sass/components/_main4-page.scss */
+.post h1 {
+  padding-top: 12px;
+}
+
+/* line 261, ../sass/components/_main4-page.scss */
+#about {
+  width: 740px;
+  margin: 0 auto;
+}
+
+/* line 265, ../sass/components/_main4-page.scss */
+#about h1, .section h1 {
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 12px;
+}
+
+/* line 269, ../sass/components/_main4-page.scss */
+.section {
+  float: left;
+  width: 390px;
+  margin-right: 50px;
+}
+
+/* line 274, ../sass/components/_main4-page.scss */
+.section h1 {
+  margin-bottom: 18px;
+}
+
+/* line 279, ../sass/components/_main4-page.scss */
+.message input[type='text'], .message textarea {
+  color: #aeaeae;
+  font-size: 13px;
+  height: 33px;
+  line-height: 33px;
+  width: 380px;
+  border: 1px solid #d5d5d5;
+  margin: 0 0 6px;
+  padding: 0 4px;
+}
+
+/* line 289, ../sass/components/_main4-page.scss */
+.message textarea {
+  height: 175px;
+  overflow: auto;
+  resize: none;
+}
+
+/* line 294, ../sass/components/_main4-page.scss */
+.message input[type='submit'] {
+  float: right;
+  background-color: #818181;
+  color: #d5d5d5;
+  cursor: pointer;
+  font: 13px/30px Arial, Helvetica, sans-serif;
+  height: 30px;
+  border: 0;
+  margin: 0;
+  padding: 0 10px;
+}
+
+/* line 305, ../sass/components/_main4-page.scss */
+.contact {
+  background-color: #f8f8f8;
+  width: 270px;
+  padding: 124px 60px;
+  text-align: center;
+}
+
+/* line 311, ../sass/components/_main4-page.scss */
+.contact p span {
+  color: #2c2c2c;
+  display: block;
+  font-size: 30px;
+  line-height: 36px;
+  padding: 18px 0;
+}
+
+/* line 319, ../sass/components/_main4-page.scss */
+#footer {
+  background-color: #eee;
+  border-top: 1px solid #d8d8d8;
+  padding: 30px 0;
+}
+
+/* line 324, ../sass/components/_main4-page.scss */
+#footer p {
+  font-size: 12px;
+  line-height: 30px;
+  padding-left: 10px;
+}
+
+/* line 329, ../sass/components/_main4-page.scss */
+#connect {
+  float: right;
+  display: inline-block;
+  margin-right: 30px;
+}
+
+/* line 334, ../sass/components/_main4-page.scss */
+#connect a {
+  background: url(../images/icons.png) no-repeat;
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  margin: 0 10px;
+}
+
+/* line 341, ../sass/components/_main4-page.scss */
+#connect a.googleplus {
+  background-position: 0 -40px;
+}
+
+/* line 344, ../sass/components/_main4-page.scss */
+#connect a.twitter {
+  background-position: 0 -80px;
+}
+
+/* line 347, ../sass/components/_main4-page.scss */
+#connect a.tumbler {
+  background-position: 0 -120px;
+}
+
+/* line 350, ../sass/components/_main4-page.scss */
+#connect a.facebook:hover {
+  background-position: -40px 0;
+}
+
+/* line 353, ../sass/components/_main4-page.scss */
+#connect a.googleplus:hover {
+  background-position: -40px -40px;
+}
+
+/* line 356, ../sass/components/_main4-page.scss */
+#connect a.twitter:hover {
+  background-position: -40px -80px;
+}
+
+/* line 359, ../sass/components/_main4-page.scss */
+#connect a.tumbler:hover {
+  background-position: -40px -120px;
+}
